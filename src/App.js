@@ -74,7 +74,7 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="./background.jpg"
+      src="./shoes1.jpg"
       alt="Second slide"
     />
 
@@ -86,13 +86,13 @@ function App() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="./background.jpg"
+      src="./shoes2.jpg"
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      {/* <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
